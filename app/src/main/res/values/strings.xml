@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">e-Citizen</string>
+    <string name="map_type_none">None</string>
+    <string name="map_type_normal">Normal</string>
+    <string name="map_type_terrain">Terrain</string>
+    <string name="map_type_satellite">Satellite</string>
+    <string name="map_type_hybrid">Hybrid</string>
+
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">SELESAI</string>
+
+    <!-- Klasifikasi kategori -->
+    <string-array name="items_kategori">
+        <item>Pilih Kategori</item>
+        <item>Fasilitas Kesehatan</item>
+        <item>Fasilitas Peribadatan</item>
+        <item>Fasilitas Sosial</item>
+        <item>Fasilitas Umum</item>
+        <item>Gedung Pemerintahan</item>
+        <item>Infrastruktur Jalan</item>
+        <item>Infrastruktur Pendidikan</item>
+        <item>Infrastruktur Transportasi</item>
+        <item>Lain-lain</item>
+    </string-array>
+
+    <!-- Klasifikasi sub-kategori -->
+    <string-array name="items_fasos">
+        <item>Bank</item>
+        <item>Gedung/Balai Pertemuan</item>
+        <item>Pasar Modern/Tradisional</item>
+        <item>Fasilitas Sosial Lainnya</item>
+    </string-array>
+
+    <string-array name="items_infra_transportasi">
+        <item>Bandar Udara</item>
+        <item>Halte Bis</item>
+        <item>Pelabuhan</item>
+        <item>Stasiun</item>
+        <item>Terminal Bis</item>
+    </string-array>
+
+    <string-array name="items_gedung_pemerintahan">
+        <item>Kantor BPBD</item>
+        <item>Kantor Bupati</item>
+        <item>Kantor Camat</item>
+        <item>Kantor Damkar</item>
+        <item>Kantor Kepala Desa</item>
+        <item>Kantor Polisi</item>
+        <item>Kantor SAR</item>
+        <item>Militer/Koramil</item>
+        <item>Pemerintahan Lainnya</item>
+    </string-array>
+
+    <string-array name="items_jalan">
+        <item>Jalan</item>
+        <item>Jembatan</item>
+        <item>Lampu Jalan</item>
+        <item>Lampu APILL</item>
+        <item>Pembatas Jalan</item>
+        <item>Lampu Penerangan Jalan Umum</item>
+        <item>Rambu Jalan</item>
+        <item>Terowongan</item>
+        <item>Trotoar</item>
+    </string-array>
+
+    <string-array name="items_pendidikan">
+        <item>SD</item>
+        <item>SMP</item>
+        <item>SMA</item>
+        <item>Taman Kanak-Kanak</item>
+        <item>Universitas/Akademi/Sekolah Tinggi</item>
+        <item>Pendidikan Lainnya</item>
+    </string-array>
+
+    <string-array name="items_fas_ibadah">
+        <item>Gereja</item>
+        <item>Klenteng</item>
+        <item>Masjid/Mushola</item>
+        <item>Pura</item>
+        <item>Vihara</item>
+    </string-array>
+
+    <string-array name="items_fasum">
+        <item>Fasilitas Taman</item>
+        <item>Lapangan/Stadion</item>
+        <item>MCK Komunal</item>
+        <item>Tong Sampah</item>
+    </string-array>
+
+    <string-array name="items_fakes">
+        <item>Posyandu</item>
+        <item>Puskesmas</item>
+        <item>Rumah Sakit</item>
+        <item>Kesehatan Lainnya</item>
+    </string-array>
+
+    <string-array name="items_lain">
+        <item>Pipa Air</item>
+        <item>Reklame</item>
+        <item>Saluran Drainase</item>
+        <item>TPA</item>
+        <item>TPS</item>
+        <item>Lainnya</item>
+    </string-array>
+
+</resources>

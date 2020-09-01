@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.guguscode.reportcitizen">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <permission
+        android:name="com.guguscode.reportcitizen.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.guguscode.reportcitizen.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permissions.READ_GSERVICES" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name=".Controller.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Dashboard.DetailActivity"
+            android:parentActivityName=".Menu.MenuBeranda" />
+        <activity
+            android:name=".Menu.MenuProfil"
+            android:parentActivityName=".Dashboard.TampilanMenu" />
+        <activity
+            android:name=".Menu.MenuPeta"
+            android:parentActivityName=".Dashboard.TampilanMenu" />
+        <activity
+            android:name=".Menu.MenuLapor"
+            android:parentActivityName=".Dashboard.TampilanMenu" />
+        <activity
+            android:name=".Menu.MenuBeranda"
+            android:parentActivityName=".Dashboard.TampilanMenu" />
+        <activity android:name=".Dashboard.TampilanMenu" />
+        <activity
+            android:name=".View.RegisterUser"
+            android:parentActivityName=".Dashboard.LoginPage" />
+        <activity android:name=".View.LoginEmail" />
+        <activity android:name=".Dashboard.LoginPage" />
+        <activity android:name=".Dashboard.SliderActivity" />
+        <activity android:name=".Dashboard.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+             <!-- <category android:name="android.intent.category.MONKEY" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.guguscode.reportcitizen.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCWS5rirJVdqey3LSebnYdZB1od0a5oXIw" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

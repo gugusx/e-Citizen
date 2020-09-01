@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme. -->
+    
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/customtheme</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+
+</resources>
